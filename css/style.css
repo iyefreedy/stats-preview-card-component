@@ -69,8 +69,8 @@ body {
 }
 
 .hero-background {
-    height: 275px;
-    background-image: url("/images/image-header-mobile.jpg");
+    height: 230px;
+    background-image: url(../images/image-header-mobile.jpg);
     background-color: var(--soft-violet);
     background-blend-mode: overlay;
     background-position: center;
@@ -149,13 +149,15 @@ section ul li span {
         flex: 1;
     }
 
-    .hero-background,
     main {
-        padding: 4rem 5rem;
+        padding: 5rem;
     }
 
     .hero-background {
         height: auto;
+        background-image: url(../images/image-header-desktop.jpg);
+        background-size: cover;
+        padding: 5rem 3.5rem;
     }
 
     header {
